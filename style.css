@@ -1,170 +1,193 @@
-.first-content{
+.first-content {
     display: flex;
     gap: 40px;
-    
 
-    }
 
-.body{
-    margin-left: 500px;
-    border: 5px solid white;
-    overflow-x:hidden;
 }
-.second-content{
+
+.body {
+    margin-left: 50px;
+    border: 5px solid white;
+    overflow-x: hidden;
+}
+
+.second-content {
     display: flex;
     gap: 70px;
     font-size: 20px;
     background-color: rgb(191, 198, 204);
 }
-.images{
+
+.images {
     width: 100px;
     height: 80px;
     display: flex;
     gap: 90px;
 }
-#icons{
+
+#icons {
     width: 60px;
     height: 40px;
 }
-.third-content{
+
+.third-content {
     display: flex;
     gap: 80px;
     text-align: center;
-    font-size: 30px;
+    font-size: 10px;
 }
-.few-words{
+
+.few-words {
     border: 2px solid palevioletred;
     background-color: rgb(235, 220, 220);
 }
-.three-lines{
+
+.three-lines {
     border: 2px solid white;
     background-color: beige;
 }
-.image-words{
+
+.image-words {
     border: 2px solid white;
     background-color: beige;
 }
-.fourth-content{
+
+.fourth-content {
     display: flex;
     gap: 60px;
-    font-size: 30px;
+    font-size: 10px;
 }
-#logo{
+
+#logo {
     width: 40px;
-    height: 35px; 
+    height: 35px;
 }
-#p-image{
+
+#p-image {
     width: 40px;
     height: 35;
     margin-right: 200px;
 }
-.line{
+
+.line {
     border-bottom: 1px solid brown;
     color: brown;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.two-lines{
+
+.two-lines {
     margin-left: 800px;
-    font-size: 30px;
+    font-size: 10px;
 }
-#customers{
+
+#customers {
     color: brown;
 }
-#globally{
+
+#globally {
     color: brown;
 }
-#webp-image{
+
+#webp-image {
     width: 80px;
     height: 50px;
 }
-.fifth-content{
+
+.fifth-content {
     display: flex;
     gap: 90px;
-    font-size: 30px;
+    font-size: 10px;
 }
-.type{
+
+.type {
     text-align: center;
     font-size: 50px;
     font-family: 'Courier New', Courier, monospace;
 }
-.words{
+
+.words {
     color: brown;
 }
-.two-paragraphs{
+
+.two-paragraphs {
     display: flex;
     gap: 200px;
-    font-size: 40px;
+    font-size: 20px;
 }
-.Angela-image{
+
+.Angela-image {
     border: 5px solid rgb(221, 176, 184);
     border-radius: 10%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.inner-paragraph{
+
+.inner-paragraph {
     border: 2px solid white;
     background-color: whitesmoke;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.users{
+
+.users {
     display: flex;
     gap: 150px;
-    font-size: 40px;
+    font-size: 20px;
     text-align: center;
 }
-/* .inner-users{
-    width: 200px;
-    height: 250px;
-} */
- #user-image{
+#user-image {
     width: 700px;
     height: 550px;
- }
- #mv2-icons{
+}
+
+#mv2-icons {
     width: 70px;
     height: 40px;
- }
- .last-four-paragraphs{
+}
+
+.last-four-paragraphs {
     display: flex;
     gap: 100px;
-    font-size: 20px;
+    font-size: 10px;
     background-color: rgb(8, 8, 92);
     color: white;
- }
- #d{
+}
+
+#d {
     background-color: blueviolet;
     border-radius: 30px;
- }
- .ref{
+}
+
+.ref {
     display: flex;
     gap: 90px;
-    background-color:  black;
+    background-color: black;
     color: white;
-    
- }
- 
-  #original-image{
+
+}
+
+#original-image {
     width: 1500px;
     height: 1000px;
-  }
-  .software{
+}
+
+.software {
     text-align: center;
-    font-size: 40px;
-  }
-  .product{
+    font-size: 20px;
+}
+
+.product {
     text-align: center;
-    font-size: 60px;
+    font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
- .join-word{
-border-radius: 20px  solid;
-background-color: blueviolet;
- }
- 
-   
+}
+
+.join-word {
+    border-radius: 20px solid;
+    background-color: blueviolet;
+}
+
+
 @media screen and (max-width: 500px) {
-    .body{
+    .body {
         flex-wrap: wrap;
     }
 }
-
- 
